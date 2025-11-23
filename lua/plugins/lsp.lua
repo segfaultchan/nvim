@@ -4,7 +4,8 @@ return {
     'mason-org/mason-lspconfig.nvim',
     opts = {
       ensure_installed = {
-        'bash-language-server',
+        -- lsp servers are there, check available to install - ":Mason"
+        'bashls',
         'lua_ls',
         'pyright',
         'rust_analyzer',
@@ -13,15 +14,17 @@ return {
         'vtsls',
       },
     },
+    dependencies = {
+      -- for built in lsp server
+      'neovim/nvim-lspconfig',
+      -- package manager for lsp  
+      {
+        'mason-org/mason.nvim',
+        opts = {},
+      },
+
+    },
   },
--- for built in lsp server
-  { 'neovim/nvim-lspconfig' },
--- package manager for lsp  
-  {
-    'mason-org/mason.nvim',
-    opts = {},
-  },
--- cmp for completion lsp
   {
     'hrsh7th/nvim-cmp',
     dependencies = {
@@ -30,6 +33,6 @@ return {
       'hrsh7th/cmp-path',
       'hrsh7th/cmp-cmdline'
     },
-    opts = {},
+    event = "InsertEnter",
   },
 }
