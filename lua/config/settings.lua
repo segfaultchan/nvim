@@ -1,5 +1,3 @@
-vim.cmd.colorscheme 'carbonfox'
-
 vim.opt.number = true -- number of line
 vim.opt.relativenumber = true -- relative numbers
 
@@ -18,3 +16,5 @@ vim.opt.shiftwidth = 2 -- tabstop value
 vim.opt.clipboard = 'unnamedplus' -- yank to cliboard :)
 
 vim.opt.signcolumn = "yes" -- signs near the line numbers (lsp in usual)
+
+vim.opt.termguicolors = true
