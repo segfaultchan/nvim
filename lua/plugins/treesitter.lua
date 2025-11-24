@@ -36,7 +36,6 @@ return {
       "vim",
       "diff", "git_rebase",
     },
-    auto_install = true,
     hightlight = { enable = true },
   },
 }
