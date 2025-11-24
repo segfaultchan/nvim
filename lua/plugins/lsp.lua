@@ -29,8 +29,8 @@ return {
   {
     'saghen/blink.cmp',
 
-    -- i don't need snippets
-    -- dependencies = { 'rafamadriz/friendly-snippets' },
+    -- i don't need snippets (maybe need...)
+    dependencies = { 'rafamadriz/friendly-snippets' },
 
     version = '1.*',
 
