@@ -9,7 +9,7 @@ return {
     lazy = false, -- neo-tree will lazily load itself
     
     keys = {
-      { "n", ":Neotree toggle reveal right <CR>" }
+      { "<C-n>", ":Neotree toggle reveal right <CR>" }
     },
   }
 }

@@ -13,3 +13,5 @@ vim.opt.tabstop = 2 -- 2 spaces is tab
 vim.opt.shiftwidth = 2 -- tabstop value
 
 vim.opt.clipboard = 'unnamedplus' -- yank to cliboard :)
+
+vim.opt.signcolumn = "yes" -- signs near the line numbers (lsp in usual)
