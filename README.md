@@ -6,3 +6,4 @@
 - `tar` - also for mason
 - `rust` or `rustup` - for rust lsp
 - `go` - for go lsp
+- `curl`
