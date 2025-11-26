@@ -1,4 +1,4 @@
-# Minimalistic config for nvim by segfaultchan
+# Minimalistic config for nvim by segfaultchan (alex-dv9 branch)
 ## dependencies
 - `nvim` - editor
 - `unzip` - for mason
