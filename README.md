@@ -3,3 +3,4 @@
 - `nvim` - editor
 - `unzip` - for mason
 - `npm` - also for masom
+- `tar` - also for mason
