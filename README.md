@@ -7,3 +7,5 @@
 - `rust` or `rustup` - for rust lsp
 - `go` - for go lsp
 - `curl`
+- `ueberzugpp` - for image.nvim
+- `imagemagick` - also for image.nvim
