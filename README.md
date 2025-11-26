@@ -7,5 +7,5 @@
 - `rust` or `rustup` - for rust lsp
 - `go` - for go lsp
 - `curl`
-- `ueberzugpp` - for image.nvim
-- `imagemagick` - also for image.nvim
+- `ueberzugpp` - (optional) for image.nvim (check lua/plugins/helpful_plugins.lua - backend)
+- `imagemagick` - (optional) also for image.nvim
