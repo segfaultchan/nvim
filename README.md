@@ -1,5 +1,5 @@
 # Minimalistic config for nvim by segfaultchan
-## depedencies
+## dependencies
 - `nvim` - editor
 - `unzip` - for mason
 - `npm` - also for masom
