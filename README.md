@@ -9,3 +9,4 @@
 - `curl`
 - `ueberzugpp` - (optional) for image.nvim (check lua/plugins/helpful_plugins.lua - backend)
 - `imagemagick` - (optional) also for image.nvim
+- `ripgrep` - telescope.nvim for find files

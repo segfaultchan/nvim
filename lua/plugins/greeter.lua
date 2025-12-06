@@ -24,9 +24,10 @@ return {
       config = {
         header = vim.split(logo, "\n"),
         center = {
-          { action = "ene | startinsert",                              desc = " New File",        icon = " ", key = "n" },
-          { action = "Mason",                                          desc = " Mason",           icon = "M ", key = "m" },
-          { action = "Lazy",                                           desc = " Lazy",            icon = "󰒲 ", key = "l" },
+          { action = "ene | startinsert",         desc = " New File",        icon = " ", key = "n" },
+          { action = "Telescope",                 desc = " Find File",       icon = " ", key = "f" },
+          { action = "Mason",                     desc = " Mason",           icon = "M ", key = "m" },
+          { action = "Lazy",                      desc = " Lazy",            icon = "󰒲 ", key = "l" },
           { action = function() vim.api.nvim_input("<cmd>qa<cr>") end, desc = " Quit",            icon = " ", key = "q" },
         },
         footer = function()
