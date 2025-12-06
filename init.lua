@@ -5,4 +5,4 @@ require('config.lazy') -- plugin manager lazy.nvim (it is great)
 vim.cmd.colorscheme('cyberdream')
 
 -- nvim keymaps --
--- require('config.keymaps')
+require('config.keymaps')
