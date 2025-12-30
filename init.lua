@@ -6,3 +6,6 @@ vim.cmd.colorscheme('cyberdream')
 
 -- nvim keymaps --
 require('config.keymaps')
+
+-- disables --
+require('config.disable')
