@@ -1,8 +1,7 @@
-require('config.settings') -- settings of nvim
-require('config.lazy') -- plugin manager lazy.nvim (it is great)
+require('config.settings')
+require('config.lazy')
 
--- nvim colorscheme --
-vim.cmd.colorscheme('carbonfox')
-
--- nvim keymaps --
+require('config.highlights')
+require('config.colorscheme')
 require('config.keymaps')
+require('config.autocmds')
