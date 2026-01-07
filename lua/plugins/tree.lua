@@ -1,11 +1,12 @@
+-- i dont use tree
 return {
-  'nvim-tree/nvim-tree.lua',
-  lazy = false,
-  dependencies = {
-    'nvim-tree/nvim-web-devicons',
-  },
-  keys = {
-    { "T", ":NvimTreeToggle <CR>" }
-  },
-  opts = {},
+--   'nvim-tree/nvim-tree.lua',
+--   lazy = false,
+--   dependencies = {
+--     'nvim-tree/nvim-web-devicons',
+--   },
+--   keys = {
+--     { "T", ":NvimTreeToggle <CR>" }
+--   },
+--   opts = {},
 }
