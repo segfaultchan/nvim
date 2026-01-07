@@ -1,1 +1,1 @@
-vim.keymap.set('i','<C-j>', '<Esc>')
+vim.keymap.set('i','<C-i>', '<Esc>')
