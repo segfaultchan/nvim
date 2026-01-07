@@ -5,26 +5,26 @@ return {
     animation = false,
     insert_at_start = false,
     auto_hide = false,
-    
+
     sidebar_filetypes = {
       NvimTree = true,
     },
     icons = {
-      -- separator = {left = '', right = ''},
-      -- separator_at_end = false,
+      separator = {left = '', right = ''},
+      separator_at_end = true,
       modified = {button = '●'},
       pinned = {button = '', filename = true},
     },
   },
-  keys = {  
+  keys = {
     -- Move to previous/next
     { '<A-,>', '<Cmd>BufferPrevious<CR>' },
     { '<A-.>', '<Cmd>BufferNext<CR>' },
-    
+
     -- Re-order to previous/next
     { '<A-<>', '<Cmd>BufferMovePrevious<CR>' },
     { '<A->>', '<Cmd>BufferMoveNext<CR>' },
-    
+
     -- Goto buffer in position...
     { '<A-1>', '<Cmd>BufferGoto 1<CR>' },
     { '<A-2>', '<Cmd>BufferGoto 2<CR>' },
@@ -67,7 +67,7 @@ return {
     { '<Space>bd', '<Cmd>BufferOrderByDirectory<CR>' },
     { '<Space>bl', '<Cmd>BufferOrderByLanguage<CR>' },
     { '<Space>bw', '<Cmd>BufferOrderByWindowNumber<CR>' },
-    
+
     -- Other:
     -- :BarbarEnable - enables barbar (enabled by default)
     -- :BarbarDisable - very bad command, should never be used
