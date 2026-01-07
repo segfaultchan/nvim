@@ -16,6 +16,7 @@ return {
 
     init = function()
       vim.opt.showmode = false -- disable modes for clear ui
+      vim.opt.cmdheight = 0
     end,
 
     opts = {
