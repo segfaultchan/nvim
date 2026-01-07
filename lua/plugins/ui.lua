@@ -2,12 +2,7 @@ return {
   { 'https://github.com/lewis6991/gitsigns.nvim/' },
 
   -- indent
-  {
-  'saghen/blink.indent',
-  --- @module 'blink.indent'
-  --- @type blink.indent.Config
-  -- opts = {},
-  },
+  { 'saghen/blink.indent' },
 
   -- bar at the down
   {

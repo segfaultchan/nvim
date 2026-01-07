@@ -31,12 +31,8 @@ return {
 
     -- i don't need snippets (maybe need...)
     dependencies = { 'rafamadriz/friendly-snippets' },
-
     version = '1.*',
 
-    ---@module 'blink.cmp'
-    ---@type blink.cmp.Config
-    
     opts = {
       -- 'super-tab' for mappings similar to vscode (tab to accept)
       -- 'enter' for enter to accept
