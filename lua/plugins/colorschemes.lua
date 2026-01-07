@@ -1,5 +1,14 @@
 return { 
   {
+    'ellisonleao/gruvbox.nvim',
+    config = true,
+    opts = {
+      underline = true,
+      contrast = "hard",
+      transparent_mode = true
+    }
+  },
+  {
     'EdenEast/nightfox.nvim',
     priority = 1000,
     lazy = false,

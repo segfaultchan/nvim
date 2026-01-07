@@ -23,7 +23,9 @@ return {
     end,
 
     opts = {
-      icons_enabled = true,
+      options = {
+        theme = 'auto'
+      }
     }
   }
 }
