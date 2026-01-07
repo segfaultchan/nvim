@@ -3,11 +3,17 @@ return {
   dependencies = { 'nvim-tree/nvim-web-devicons' },
   opts = {
     animation = false,
-    insert_at_start = true,
-    auto_hide = true,
+    insert_at_start = false,
+    auto_hide = false,
     
     sidebar_filetypes = {
       NvimTree = true,
+    },
+    icons = {
+      -- separator = {left = '', right = ''},
+      -- separator_at_end = false,
+      modified = {button = '●'},
+      pinned = {button = '', filename = true},
     },
   },
   keys = {  
