@@ -11,7 +11,8 @@ return {
 
     init = function()
       vim.opt.showmode = false -- disable modes for clear ui
-      vim.opt.cmdheight = 0
+      vim.opt.cmdheight = 1
+      vim.opt.shortmess:append("c")
     end,
 
     opts = {
