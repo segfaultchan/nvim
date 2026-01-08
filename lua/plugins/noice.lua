@@ -5,7 +5,22 @@ return {
 
     opts = {
         views = {
-            border = "none"
+            mini = {
+                align = "message-right",
+                position = {
+                    row = "95%",
+                    col = "99%"
+                },
+                size = {
+                    width = "auto",
+                    height = "auto"
+                }
+            }
+        },
+
+        presets = {
+            bottom_search = true,
+            command_palette = true
         },
 
         lsp = {
@@ -36,7 +51,10 @@ return {
 
         messages = {
             enabled = true,
-            view = "notify",
+            view = "mini",
+            view_error = "mini",
+            view_warn = "mini",
+            view_history = "messages"
         },
 
         routes = {

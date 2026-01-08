@@ -1,42 +1,42 @@
 return {
-  'nvim-treesitter/nvim-treesitter',
-  lazy = false,
-  build = ":TSUpdate",
-  branch = "master",
-  main = 'nvim-treesitter.configs',
-  opts = {
-    auto_install = true,
-    highlight = { enable = true },
-    indent = { enable = true },
-    folds = { enable = true },
-    
-    ensure_installed = {
-      -- база
-      "c", "cpp", "zig", "rust", "go", "gomod", "gowork", "python",
-      "lua", "luadoc", "luap",
+    'nvim-treesitter/nvim-treesitter',
+    lazy = false,
+    build = ":TSUpdate",
+    branch = "master",
+    main = 'nvim-treesitter.configs',
+    opts = {
+        auto_install = true,
+        highlight = { enable = true },
+        indent = { enable = true },
+        folds = { enable = true },
 
-      -- баш и ассемблер
-      "bash",
-      "nasm",
+        ensure_installed = {
+            -- база
+            "c", "cpp", "zig", "rust", "go", "gomod", "gowork", "python",
+            "lua", "luadoc", "luap",
 
-      -- конфиги
-      "nix", "yaml", "toml", "jsonc", "dockerfile", "make", "cmake",
-      "gitignore", "gitattributes",
+            -- баш и ассемблер
+            "bash",
+            "nasm",
 
-      -- БД и API
-      "sql", "proto", "regex", "graphql", "json",
+            -- конфиги
+            "nix", "yaml", "toml", "jsonc", "dockerfile", "make", "cmake",
+            "gitignore", "gitattributes",
 
-      -- JS/TS - два всадника апокалипсиса для оперативки
-      "javascript", "typescript", "tsx", "jsdoc",
+            -- БД и API
+            "sql", "proto", "regex", "graphql", "json",
 
-      -- документация и тексты
-      "markdown", "markdown_inline", "comment", "vimdoc",
+            -- JS/TS - два всадника апокалипсиса для оперативки
+            "javascript", "typescript", "tsx", "jsdoc",
 
-      -- редкость
-      "query",
-      "vim",
-      "diff", "git_rebase",
-    },
-    hightlight = { enable = true },
-  },
+            -- документация и тексты
+            "markdown", "markdown_inline", "comment", "vimdoc",
+
+            -- редкость
+            "query",
+            "vim",
+            "diff", "git_rebase",
+        },
+        hightlight = { enable = true },
+    }
 }
