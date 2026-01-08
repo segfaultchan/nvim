@@ -32,4 +32,5 @@ require("lazy").setup({
   install = { colorscheme = { "carbonfox" } },
   -- automatically check for plugin updates
   checker = { enabled = true, notify = false },
+  change_detection = { enabled = false }
 })

@@ -1,6 +1,6 @@
 return {
     "folke/noice.nvim",
-    dependencies = { "MunifTanjim/nui.nvim", "rcarriga/nvim-notify" },
+    dependencies = { "MunifTanjim/nui.nvim" },
     event = "VeryLazy",
 
     opts = {
@@ -21,6 +21,10 @@ return {
         presets = {
             bottom_search = true,
             command_palette = true
+        },
+
+        popupmenu = {
+            enabled = false
         },
 
         lsp = {
@@ -46,7 +50,7 @@ return {
 
         notify = {
             enabled = true,
-            view = "notify"
+            view = "mini"
         },
 
         messages = {
