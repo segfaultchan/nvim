@@ -1,1 +1,1 @@
-vim.keymap.set('i','<C-i>', '<Esc>')
+vim.keymap.set('i','<C-c>', '<Esc>') -- ctrl+c for leave insert
