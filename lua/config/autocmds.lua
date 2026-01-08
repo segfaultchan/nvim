@@ -6,3 +6,9 @@ vim.api.nvim_create_autocmd("DiagnosticChanged", {
         })
     end,
 })
+
+-- Fix cursor changing problem in some terminals
+vim.api.nvim_create_autocmd("ExitPre", {
+    group = vim.api.nvim_create_augroup("Exit", { clear = true }),
+    command = "set guicursor=a:ver90"
+})
