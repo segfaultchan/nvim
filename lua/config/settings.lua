@@ -1,5 +1,5 @@
 vim.opt.number = true -- number of line
-vim.opt.relativenumber = true -- relative numbers
+-- vim.opt.relativenumber = true -- relative numbers
 
 vim.opt.ignorecase = true -- smarter search
 vim.opt.smartcase = true -- also smarter search
