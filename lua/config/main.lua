@@ -20,7 +20,13 @@ vim.opt.clipboard = 'unnamedplus' -- yank to cliboard :)
 
 vim.opt.termguicolors = true
 
--- disable backups & automatic creation of shada files
 vim.opt.backup = false
 vim.opt.writebackup = false
 vim.opt.shadafile = "NONE"
+
+require('config.lazy')
+require('config.highlights')
+require('config.keymaps')
+require('config.autocmds')
+
+vim.cmd.colorscheme("carbonfox")
