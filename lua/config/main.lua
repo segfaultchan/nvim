@@ -25,7 +25,6 @@ vim.opt.writebackup = false
 vim.opt.shadafile = "NONE"
 
 require('config.lazy')
-require('config.highlights')
 require('config.keymaps')
 require('config.autocmds')
 
