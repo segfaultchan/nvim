@@ -9,28 +9,8 @@ return {
 
   -- autopairs of {}, "", '', etc
   {
-    'saghen/blink.pairs',
-    version = '*', -- (recommended) only required with prebuilt binaries
-
-    dependencies = 'saghen/blink.download',
-    -- OR build from source, requires nightly:
-    -- https://rust-lang.github.io/rustup/concepts/channels.html#working-with-nightly-rust
-    -- build = 'cargo build --release',
-    -- If you use nix, you can build from source using latest nightly rust with:
-    -- build = 'nix run .#build-plugin',
-
-    opts = {
-      mappings = {
-        enabled = true,
-        cmdline = true,
-        disabled_filetypes = {},
-        pairs = {},
-      },
-      highlights = {
-        enabled = true,
-        cmdline = true,
-      },
-    }
+    'nvim-mini/mini.pairs',
+    opts = {}
   },
   -- colorizer hex, rgb, etc
   {
