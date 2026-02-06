@@ -1,5 +1,5 @@
 # Minimalistic config for nvim by segfaultchan
-**switched to gitlab** ![https://gitlab.com/segfaultchan/nvim](url)
+**switched to gitlab** [gitlab repo](https://gitlab.com/segfaultchan/nvim)
 
 ## dependencies
 - `nvim` - editor
