@@ -1,4 +1,6 @@
 # Minimalistic config for nvim by segfaultchan
+**switched to gitlab** ![https://gitlab.com/segfaultchan/nvim](url)
+
 ## dependencies
 - `nvim` - editor
 - `unzip` - for mason
